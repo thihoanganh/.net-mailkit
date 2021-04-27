@@ -1,0 +1,7 @@
+﻿<form method="post" asp-action="SendMail" enctype="multipart/form-data">
+    TO: <input type="text" name="To" value="" />
+    SUBJECT: <input type="text" name="Subject" value="" />
+    BODY: <textarea name="Body"></textarea>
+    <input type="file" name="Attachs" multiple />
+    <input type="submit" value="Send" class="btn btn-primary" />
+</form>
